@@ -20,15 +20,21 @@ public class TriangleTypeTest {
         Assert.assertFalse(triangle.is(TriangleType.EQUILATERAL));
     }
 
-    @Test
-    public void testIsoscelesTriangle() {
-        Triangle<Long> triangle = Triangle.withSides(1L, 3L, 3L);
+    private void doTestIsoscelesTriangle(double x, double y, double z) {
+        Triangle<Double> triangle = Triangle.withSides(x, y, z);
 
         Assert.assertEquals(TriangleType.ISOSCELES, TriangleType.typeOf(triangle));
 
         Assert.assertFalse(triangle.is(TriangleType.SCALENE));
         Assert.assertTrue(triangle.is(TriangleType.ISOSCELES));
         Assert.assertFalse(triangle.is(TriangleType.EQUILATERAL));
+    }
+
+    @Test
+    public void testIsoscelesTriangle() {
+        doTestIsoscelesTriangle(3.0, 2.0, 2.0);
+        doTestIsoscelesTriangle(2.0, 3.0, 2.0);
+        doTestIsoscelesTriangle(2.0, 2.0, 3.0);
     }
 
 
