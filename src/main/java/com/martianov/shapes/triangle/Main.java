@@ -6,7 +6,7 @@ import com.martianov.shapes.exceptions.IllegalSidesCount;
 import java.util.Arrays;
 
 /**
- * Main application class.
+ * Triangles application main class.
  *
  * @author Andrey Martyanov <martianovas@gmail.com>
  */
