@@ -1,4 +1,4 @@
-package com.martianov.shapesdetect.triangles;
+package com.martianov.shapes;
 
 /**
  * Attribute of shapes.

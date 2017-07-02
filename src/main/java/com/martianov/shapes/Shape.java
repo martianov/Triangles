@@ -1,6 +1,8 @@
-package com.martianov.shapesdetect.triangles;
+package com.martianov.shapes;
 
-import com.martianov.shapesdetect.triangles.exceptions.*;
+import com.martianov.shapes.exceptions.IllegalSideLength;
+import com.martianov.shapes.exceptions.IllegalSidesCount;
+import com.martianov.shapes.exceptions.ShapeAttributeNotApplicable;
 
 /**
  * Shape with specified side lengths.

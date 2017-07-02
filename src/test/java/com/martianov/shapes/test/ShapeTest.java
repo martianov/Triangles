@@ -1,10 +1,10 @@
-package com.martianov.shapesdetect.triangles.test;
+package com.martianov.shapes.test;
 
-import com.martianov.shapesdetect.triangles.IShapeAttribute;
-import com.martianov.shapesdetect.triangles.Shape;
-import com.martianov.shapesdetect.triangles.exceptions.IllegalSideLength;
-import com.martianov.shapesdetect.triangles.exceptions.IllegalSidesCount;
-import com.martianov.shapesdetect.triangles.exceptions.ShapeAttributeNotApplicable;
+import com.martianov.shapes.IShapeAttribute;
+import com.martianov.shapes.Shape;
+import com.martianov.shapes.exceptions.IllegalSideLength;
+import com.martianov.shapes.exceptions.IllegalSidesCount;
+import com.martianov.shapes.exceptions.ShapeAttributeNotApplicable;
 import org.junit.Assert;
 import org.junit.Test;
 

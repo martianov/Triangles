@@ -1,4 +1,7 @@
-package com.martianov.shapesdetect.triangles;
+package com.martianov.shapes.triangle;
+
+import com.martianov.shapes.IShapeAttribute;
+import com.martianov.shapes.Shape;
 
 /**
  * Type of triangle: scalene, isosceles or equilateral.
@@ -23,10 +26,10 @@ public enum TriangleType implements IShapeAttribute<Triangle<?>> {
 
     /**
      * Returns if triangle type is applicable for given shape class.
-     * Triangle type is applicable for com.martianov.shapesdetect.triangles.Triangle and its subtypes.
+     * Triangle type is applicable for com.martianov.shapes.triangle.Triangle and its subtypes.
      *
      * @param clazz type of shape.
-     * @return true if given class is com.martianov.shapesdetect.triangles.Triangle or its subtype.
+     * @return true if given class is com.martianov.shapes.triangle.Triangle or its subtype.
      * */
     public static <T extends Shape<?>> boolean isApplicableFor(Class<T> clazz) {
         return Triangle.class.isAssignableFrom(clazz);

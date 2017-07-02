@@ -1,7 +1,7 @@
-package com.martianov.shapesdetect.triangles;
+package com.martianov.shapes.triangle;
 
-import com.martianov.shapesdetect.triangles.exceptions.IllegalSideLength;
-import com.martianov.shapesdetect.triangles.exceptions.IllegalSidesCount;
+import com.martianov.shapes.exceptions.IllegalSideLength;
+import com.martianov.shapes.exceptions.IllegalSidesCount;
 
 import java.util.Arrays;
 

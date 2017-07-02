@@ -1,4 +1,4 @@
-package com.martianov.shapesdetect.triangles.exceptions;
+package com.martianov.shapes.exceptions;
 
 /**
  * Thrown if try to create shape with invalid count of sides.

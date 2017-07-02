@@ -1,7 +1,7 @@
-package com.martianov.shapesdetect.triangles.test;
+package com.martianov.shapes.test;
 
-import com.martianov.shapesdetect.triangles.Triangle;
-import com.martianov.shapesdetect.triangles.TriangleType;
+import com.martianov.shapes.triangle.Triangle;
+import com.martianov.shapes.triangle.TriangleType;
 import org.junit.Assert;
 import org.junit.Test;
 

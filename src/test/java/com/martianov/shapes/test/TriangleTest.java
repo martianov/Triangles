@@ -1,8 +1,8 @@
-package com.martianov.shapesdetect.triangles.test;
+package com.martianov.shapes.test;
 
-import com.martianov.shapesdetect.triangles.Triangle;
-import com.martianov.shapesdetect.triangles.exceptions.IllegalSideLength;
-import com.martianov.shapesdetect.triangles.exceptions.IllegalSidesCount;
+import com.martianov.shapes.triangle.Triangle;
+import com.martianov.shapes.exceptions.IllegalSideLength;
+import com.martianov.shapes.exceptions.IllegalSidesCount;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,6 +1,8 @@
-package com.martianov.shapesdetect.triangles;
+package com.martianov.shapes.triangle;
 
-import com.martianov.shapesdetect.triangles.exceptions.*;
+import com.martianov.shapes.Shape;
+import com.martianov.shapes.exceptions.IllegalSideLength;
+import com.martianov.shapes.exceptions.IllegalSidesCount;
 
 /**
  * Triangle with specified sides' lengths. Sides' length satisfy the triangle inequality.
@@ -9,7 +11,7 @@ import com.martianov.shapesdetect.triangles.exceptions.*;
  *
  * @author Andrey Martyanov <martianovas@gmail.com>
  */
-public class Triangle<T extends Number> extends Shape<T>{
+public class Triangle<T extends Number> extends Shape<T> {
     private Triangle(T... sides) {
         super(sides);
     }
