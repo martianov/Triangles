@@ -6,9 +6,15 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * Tests on TriangleType class:
+ * - identifying type of scalene, isosceles, equilateral triangles;
+ *
  * @author Andrey Martyanov <martianovas@gmail.com>
  */
 public class TriangleTypeTest {
+    /**
+     * Test on identifying of scalene triangle.
+     * */
     @Test
     public void testScaleneTriangle() {
         Triangle<Long> triangle = Triangle.withSides(1L, 2L, 3L);
@@ -30,6 +36,9 @@ public class TriangleTypeTest {
         Assert.assertFalse(triangle.is(TriangleType.EQUILATERAL));
     }
 
+    /**
+     * Test on identifying of isosceles triangle.
+     * */
     @Test
     public void testIsoscelesTriangle() {
         doTestIsoscelesTriangle(3.0, 2.0, 2.0);
@@ -38,6 +47,9 @@ public class TriangleTypeTest {
     }
 
 
+    /**
+     * Test on identifying of equilateral triangle.
+     * */
     @Test
     public void testEquilateralTriangle() {
         Triangle<Long> triangle = Triangle.withSides(3L, 3L, 3L);
